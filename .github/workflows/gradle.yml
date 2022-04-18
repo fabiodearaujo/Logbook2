@@ -33,4 +33,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     
+    #Run the TestNG tests.
+    - name: Run TestNG tests
+      run: ./gradlew test
     
