@@ -24,10 +24,10 @@ repositories {
 dependencies {
     //Add the dependencies for the application
     //TestNG is used for unit testing
-    testImplementation("org.testng:testng:7.4.0")
+    testImplementation("org.testng:testng:7.4.2")
 
     //Google Guava is used for utility classes
-    testImplementation("com.google.guava:guava:30.0-jre")
+    testImplementation("com.google.guava:guava:31.1-jre")
 }
 
 application {

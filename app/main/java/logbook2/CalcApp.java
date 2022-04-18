@@ -11,6 +11,12 @@ package logbook2;
 
 public class CalcApp {
 
+    public static void main(String[] args) {
+    CalcApp calc = new CalcApp();
+    calc.add(10).add(20).add(30).subtract(15).multiply(2).divide(5);
+    System.out.println("Calculation = " + calc.value());
+    }
+
     private double state;
 
     public CalcApp add(double value) {
@@ -40,11 +46,4 @@ public class CalcApp {
     public double value() {
         return state;
     }
-
-    public void main(String[] args) {
-        CalcApp calc = new CalcApp();
-        calc.add(10).add(20).add(30).subtract(15).multiply(2).divide(5);
-        System.out.println(calc.value());
-    }
-
 }
