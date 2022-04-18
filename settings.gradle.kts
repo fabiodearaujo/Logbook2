@@ -8,3 +8,4 @@
  */
 
 rootProject.name = "Logbook2"
+include("app")
