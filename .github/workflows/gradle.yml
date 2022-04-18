@@ -37,3 +37,6 @@ jobs:
     - name: Run TestNG tests
       run: ./gradlew test
     
+    # Create Scan Report 
+      - name: Build with Gradle creating Scan 
+        run: ./gradlew clean build --scan --no-daemon

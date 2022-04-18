@@ -3,8 +3,8 @@ package logbook2;
 /**
 *   @author Fabio De Araujo
 *   @version 1.0
-*   @date 2022-04-18
-*   @description This class is used to test the CalcApp class.
+*   Created on 18/04/2022
+*   Description: This class is used to test the CalcApp class.
 */
 
 //TestNG imports
