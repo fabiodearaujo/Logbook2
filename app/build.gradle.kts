@@ -45,6 +45,7 @@ tasks.test{
     useTestNG()
 }
 
+//https://stackoverflow.com/questions/52636622/how-to-accept-gradle-tos-for-build-scan-automatically-and-still-manage-to-ru
 if (hasProperty('buildScan')) {
     buildScan {
         termsOfServiceUrl = 'https://gradle.com/terms-of-service'
