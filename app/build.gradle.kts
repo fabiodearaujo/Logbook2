@@ -35,6 +35,11 @@ application {
     mainClass.set("logbook2.CalcApp")
 }
 
+java {
+    //Create javadocs 
+    withJavadocJar()
+}
+
 tasks.test{
     //Use TestNG to run the tests
     useTestNG()
